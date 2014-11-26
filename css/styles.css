@@ -23,7 +23,7 @@ html {
 }
 
 body {
-	background-color: #cdcdcd;
+	background-color: #D3D3D3;
 	font-family: 'Open Sans Condensed', sans-serif;
 	width: 100%;
 }
@@ -138,27 +138,24 @@ nav a {
 	
 }
 
+
+
 .feedback {
-	background-color: orange;
-	width: 156px;
-	height: 90px;
-	display: none;
+	width: 75%;
+	display: inline-block;
 	float: left;
-	position: relative;
-	top: 167px;
-	left: -222px;
+	font-size: 2em;
+	color: #fff;
 }
 
-.feedback-area {
-	display: block;
-	float:right;
-	position: absolute;
-	left: 600px;
-	max-width: 455px;
-	height: 500px;
-	padding: 100px 75px 0 0;
-	font-size: 14px;
-	font-weight: bold;
+
+p.feedback-correct, p.feedback-wrong {
+    text-align: center;
+}
+
+
+.hide-element {
+	display:none;
 }
 
 
@@ -187,6 +184,23 @@ input {
     margin-right:  15px;
 }
 
+.fa.fa-arrow-left.fa-2x, .fa.fa-arrow-right.fa-2x {
+	color: #fff;
+	padding: 20px;
+}
+
+.fa.fa-arrow-left.fa-2x {
+	float: left;
+	padding-left: 25px;
+
+}
+
+.fa.fa-arrow-right.fa-2x {
+	float: right;
+	padding-right: 25px;
+
+
+}
 /*images*/
 
 
