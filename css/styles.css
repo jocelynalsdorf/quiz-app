@@ -1,38 +1,68 @@
 /*main styles--*/
-
-
-
-body {
-	background-color: #000;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-h1 {
+
+
+
+html {
+	width: 100%;
+}
+
+body {
+	background-color: #cdcdcd;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 100%;
+}
+
+.box-title > p {
 	font-family: 'Pacifico', cursive;
+	font-size: 3.5em;
+	color: #fff;
+	text-align: center;
+	padding-top: 13px;
 }
 
 .main {
 	background-color: #fff;
-	margin-top: 110px;
-	padding-left: 100px;
-	min-width: 1200px;
-	height: 500px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	padding-top: 55px;
+	padding-bottom: 50px;
+	position: relative;
+	
 }
 
 .question-box {
-	float: left;
-
+	width: 50%;
+	margin: 0 auto;
+	height: 480px;
+	padding-top: 30px;
+	background-color: brown;
+	position: relative;
+}
+.box-title {
+	background-color: green;
+    width: 100%;
+    height: 95px;
+    margin-top:  0;
+    position:  absolute;
+    top:  0;
 }
 
-.quest-one, .quest-two, .quest-three .quest-four {
-	width: 659px;
-	height: 494px;
+.quest-one, .quest-two, .quest-three, .quest-four {
+	width: 550px;
+	height: 380px;
+	margin-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
 
-}
-
-.quest-two, .quest-three .quest-four  {
-	display: none;
 }
 
 .quest-one {
@@ -41,17 +71,22 @@ h1 {
 
 .quest-two {
 	background-color: grey;
+	display: none;
 }
 
 .quest-three {
 	background-color: yellow;
+	display: none;
 }
 
 .quest-four {
 	background-color: pink;
+	display: none;
 }
 
-
+.quest-two, .quest-three, .quest-four,  {
+	
+}
 
 .feedback {
 	background-color: orange;
