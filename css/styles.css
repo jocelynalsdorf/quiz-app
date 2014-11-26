@@ -1,0 +1,96 @@
+/*main styles--*/
+
+
+
+body {
+	background-color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+.main {
+	background-color: #fff;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+}
+
+.question-box {
+	float: left;
+
+}
+
+.quest-one, .quest-two, .quest-three .quest-four {
+	width: 659px;
+	height: 494px;
+
+}
+
+.quest-two, .quest-three .quest-four  {
+	display: none;
+}
+
+.quest-one {
+	background-color: red;
+}
+
+.quest-two {
+	background-color: grey;
+}
+
+.quest-three {
+	background-color: yellow;
+}
+
+.quest-four {
+	background-color: pink;
+}
+
+
+
+.feedback {
+	background-color: orange;
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: relative;
+	top: 167px;
+	left: -222px;
+}
+
+.feedback-area {
+	display: block;
+	float:right;
+	position: absolute;
+	left: 600px;
+	max-width: 455px;
+	height: 500px;
+	padding: 100px 75px 0 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+	
+
+
+/*layout*/
+
+
+
+
+/*images*/
+
+
+
+
+/*animations--*/
+
+
+
