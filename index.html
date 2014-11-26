@@ -6,20 +6,61 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
-
+	<nav> 
+		<ul class="nav-links clearfix">
+			<li><a class="what" href="#">How to Play</a></li>
+			<li><a class="new" href="#">Start Quiz!</a></li>
+		</ul>
+	</nav>
 	<div class="main">
 		<div class="question-box">
 			<div class="box-title">
 				<p>Candy Genius</p>	
 				</div>
-			<div class="quest-one"></div>
-			<div class="quest-two"></div>
-			<div class="quest-three"></div>
-			<div class="quest-four"></div>
+			<div class="quest-one">
+			  <form>
+				<legend>Question 1</legend>
+				<h3 class="quiz-question">The Mars Chocolate company does NOT make which of the following candy bars:</h3>
+				<p><label> <input type="radio" class="question1-a" name="question1-a">Twix</label></p>
+				<p><label> <input type="radio" class="question1-b correct" name="question1-b">Kit Kat</p>
+				<p><label> <input type="radio" class="question1-c" name="question1-c">M&M'S</label></p>
+				<p><label> <input type="radio" class="question1-d" name="question1-d">3 Musketeers</label></p>
+			  </form>
+			</div>
+			<div class="quest-two">
+			  <form>
+				<legend>Question 2</legend>
+				<h3 class="quiz-question">What candy bar claims to decrease your hunger effectively?</h3>
+				<p><label> <input type="radio" class="question2-a" name="question2-a">Almond Joy</label></p>
+				<p><label> <input type="radio" class="question2-b" name="question2-b">Payday</p>
+				<p><label> <input type="radio" class="question2-c" name="question2-c">M&M'S</label></p>
+				<p><label> <input type="radio" class="question2-d correct" name="question2-d">Snickers</label></p>
+			  </form>
+			</div>
+			<div class="quest-three">
+			  <form>
+				<legend>Question 3</legend>
+				<h3 class="quiz-question">Which of the following do not have a peanut butter version available?</h3>
+				<p><label> <input type="radio" class="question3-a" name="question3-a">Twix</label></p>
+				<p><label> <input type="radio" class="question3-b" name="question3-b">Kit Kat</p>
+				<p><label> <input type="radio" class="question3-c" name="question3-c">Snickers</label></p>
+				<p><label> <input type="radio" class="question3-d correct" name="question3-d">Milky Way</label></p>
+			  </form>
+			</div>
+			<div class="quest-four">	
+			  <form>
+				<legend>Question 4</legend>
+				<h3 class="quiz-question">Wich candy has a slogan that invites you to "taste" an element of nature:</h3>
+				<p><label> <input type="radio" class="question4-a" name="question4-a">Starburst</label></p>
+				<p><label> <input type="radio" class="question4-b" name="question4-b">Twizzlers</p>
+				<p><label> <input type="radio" class="question4-c" name="question4-c">Jolly Rancher</label></p>
+				<p><label> <input type="radio" class="question4-d correct" name="question4-d">Skittles</label></p>
+			  </form>
+			</div>
 			<div class="breadcrumbs"></div>
 		</div>
 
