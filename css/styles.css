@@ -120,22 +120,18 @@ nav a {
 }
 
 .quest-two {
-	background-color: grey;
+	background-color: #E6E6E6;
 	display: none;
 }
 
 .quest-three {
-	background-color: yellow;
+	background-color: #E6E6E6;
 	display: none;
 }
 
 .quest-four {
-	background-color: pink;
+	background-color: #E6E6E6;
 	display: none;
-}
-
-.quest-two, .quest-three, .quest-four,  {
-	
 }
 
 
