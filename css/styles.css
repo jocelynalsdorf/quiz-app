@@ -149,7 +149,7 @@ nav a {
 }
 
 
-p.feedback-correct, p.feedback-wrong {
+p.feedback-correct, p.feedback-wrong, p.feedback-button {
     text-align: center;
 }
 
@@ -158,9 +158,15 @@ p.feedback-correct, p.feedback-wrong {
 	display:none;
 }
 
-
+button {
+    font-size: .8em;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
 	
-
+p.feedback-button {
+    padding-top:  8px;
+}
 
 /*question box content styles*/
 
