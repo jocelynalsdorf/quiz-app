@@ -209,9 +209,53 @@ input {
 }
 /*images*/
 
+/*style for hidden modal*/
+.instructions {
+	width: 100%;
+	height: 800px;
+	color: #fff;
+	background: #E6E6E6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: 1000;
+	
+}
 
+.how-to {
+	color: #444;
+	background: #D3D3D3;
+	position: relative;
+	height: 245px;
+	width: 500px;
+	border-radius: 3px;
+	top: 15%;
+	margin: auto auto;
+	border: 1px solid rgba(0,0,0,0.1);
+}
 
+.how-to > div a {
+	font-size: 1.1em;
+	font-family: inherit;
+	background: #c00000;
+	color: #fff;
+	padding: 0.5em 2em;
+	margin-bottom: 50px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+ .how-to > p {
+ 	color: #444;
+ 	padding: 22px 24px 0 33px;
+ }
 
+ .btn-container {
+ 	text-align: center;
+ 	padding-top: 35px;
+ 	font-size: 1em;
+
+ }
 /*animations--*/
 
 
