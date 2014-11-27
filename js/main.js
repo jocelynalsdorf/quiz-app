@@ -61,9 +61,16 @@ $(document).ready(function() {
 	function updateCount() {
 		var answer = $("input[type='radio']:checked").val();
 		if(answer == questions[currentQuestion].correctAns) {
-			alert("yep");
-		
+			//alert("yep");
+		numCorrect++;
+		$(".feedback-button").addClass("hide-element");
+ 		$(".feedback-correct").removeClass("hide-element");
+			}
+		else {
+		$(".feedback-button").addClass("hide-element");
+ 		$(".feedback-wrong").removeClass("hide-element");
+			}
 		}
-	}
+	
 
 	});
