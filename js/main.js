@@ -54,6 +54,8 @@ $(document).ready(function() {
 	 //alert("hey");
 	 updateCount();
 	 currentQuestion++;
+
+	
 	 });
 
 	
@@ -61,7 +63,6 @@ $(document).ready(function() {
 	function updateCount() {
 		var answer = $("input[type='radio']:checked").val();
 		if(answer == questions[currentQuestion].correctAns) {
-			//alert("yep");
 		numCorrect++;
 		$(".feedback-button").addClass("hide-element");
  		$(".feedback-correct").removeClass("hide-element");
@@ -69,8 +70,45 @@ $(document).ready(function() {
 		else {
 		$(".feedback-button").addClass("hide-element");
  		$(".feedback-wrong").removeClass("hide-element");
+ 		
+ 		
 			}
-		}
-	
+			
+		
+	}
+		
+$(".fa-arrow-right").on("click", function() {
+    if(currentQuestion == 1) {
+    	
+				$(".quest-one").hide();
+				$(".quest-two").show();
+				$(".feedback-correct").addClass("hide-element");
+				$(".feedback-wrong").addClass("hide-element");
+				$(".feedback-button").removeClass("hide-element");
+				
+			}
+			else if(currentQuestion == 2) {
+				
+				$(".quest-two").hide();
+				$(".quest-three").show();
+				$(".feedback-correct").addClass("hide-element");
+				$(".feedback-wrong").addClass("hide-element");
+				$(".feedback-button").removeClass("hide-element");
+			
+			}
+			else if(currentQuestion == 3) {
+				
+				$(".quest-three").hide();
+				$(".quest-four").show();
+				$(".feedback-correct").addClass("hide-element");
+				$(".feedback-wrong").addClass("hide-element");
+				$(".feedback-button").removeClass("hide-element");
+			
+			}
+			else {
+				alert("game over");
+			}
+		});
+		
 
 	});
