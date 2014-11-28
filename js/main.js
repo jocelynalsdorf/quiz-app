@@ -114,4 +114,10 @@ $(document).ready(function() {
 	
 	});
 
+	$(".fa-arrow-left").on("click", function() {
+	alert("Restart Quiz");
+	window.location.reload();
+});
+
+
 	});
