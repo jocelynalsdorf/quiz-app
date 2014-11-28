@@ -258,9 +258,20 @@ input {
 
  .btn-container {
  	text-align: center;
- 	padding-top: 35px;
+ 	padding-top: 27px;
  	font-size: 1em;
 
+ }
+
+ a.retake-it {
+	font-size: 0.8em;
+	font-family: inherit;
+	background: #c00000;
+	color: #fff;
+	padding: 0.5em 2em;
+	margin-bottom: 50px;
+	border-radius: 3px;
+	text-decoration: none;
  }
  
  #final-box {

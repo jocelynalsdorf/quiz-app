@@ -120,25 +120,30 @@ $(document).ready(function() {
 
 	var finalScore = function () {
 		if(numCorrect === 0) {
-		document.getElementById("five").innerHTML = "You scored 0%. Eat more candy.";
+		document.getElementById("user-fb").innerHTML = "You scored 0%. Eat more candy.";
 			}
 		else if(numCorrect == 1) {
-		document.getElementById("five").innerHTML = "You scored 25%. Eat more candy.";	
+		document.getElementById("user-fb").innerHTML = "You scored 25%. Eat more candy.";	
 			}
 		else if(numCorrect == 2) {
-		document.getElementById("five").innerHTML = "You scored 50%. Pretty sad.";
+		document.getElementById("user-fb").innerHTML = "You scored 50%. Pretty sad.";
 			}
 		else if(numCorrect == 3) {
-		document.getElementById("five").innerHTML = "You scored 75%. Not bad!";
+		document.getElementById("user-fb").innerHTML = "You scored 75%. Not bad!";
 			}
 		else if(numCorrect == 4) {
-		document.getElementById("five").innerHTML = "You scored 100%. You are a CANDY GENIUS.";
+		document.getElementById("user-fb").innerHTML = "You scored 100%. You are a CANDY GENIUS.";
 			}
 		};
 
 
 	$(".fa-arrow-left").on("click", function() {
 	alert("Restart Quiz");
+	window.location.reload();
+	});
+
+
+	$(".retake-it").on("click", function() {
 	window.location.reload();
 });
 
