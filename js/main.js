@@ -57,6 +57,8 @@ $(document).ready(function() {
 	 event.preventDefault();
 	 updateCount();
 	 currentQuestion++;
+	 var score = "You have "+ numCorrect +" correct.";   
+     $(".new").html(score);
 	});
 	
 
@@ -75,6 +77,7 @@ $(document).ready(function() {
 	$(".feedback-button").addClass("hide-element");
  	$(".feedback-wrong").removeClass("hide-element");
 		}
+
 	}
 
 
