@@ -112,10 +112,29 @@ $(document).ready(function() {
 	$(".feedback-correct").addClass("hide-element");
 	$(".feedback-wrong").addClass("hide-element");
 	$(".feedback-button").removeClass("hide-element");
-	alert("game over");
+	finalScore();
 		}
 	
 	});
+
+	var finalScore = function () {
+		if(numCorrect === 0) {
+		alert("You scored 0%. Eat more candy.");
+			}
+		else if(numCorrect == 1) {
+		alert("You scored 25%. Eat more candy.");	
+			}
+		else if(numCorrect == 2) {
+		alert("You scored 50%. Pretty sad.");
+			}
+		else if(numCorrect == 3) {
+		alert("You scored 75%. Not bad!");
+			}
+		else if(numCorrect == 4) {
+		alert("You scored 100%. You are a CANDY GENIUS.");
+			}
+		};
+
 
 	$(".fa-arrow-left").on("click", function() {
 	alert("Restart Quiz");
