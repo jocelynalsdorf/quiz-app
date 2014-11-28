@@ -106,7 +106,7 @@ nav a {
 }
 
 
-.quest-one, .quest-two, .quest-three, .quest-four {
+.quest-one, .quest-two, .quest-three, .quest-four, .quest-five {
 	width: 550px;
 	height: 380px;
 	margin-top: 65px;
@@ -134,6 +134,10 @@ nav a {
 	display: none;
 }
 
+.quest-five {
+	background-color: #E6E6E6;
+	display: none;
+}
 
 
 .feedback {
@@ -203,7 +207,12 @@ input {
 
 
 }
-/*images*/
+
+ #five {
+    font-size: 1.7em;
+    padding: 10px;
+    text-align: center;
+}
 
 /*style for hidden modal*/
 .instructions {
@@ -253,7 +262,10 @@ input {
  	font-size: 1em;
 
  }
-/*animations--*/
+ 
+ #final-box {
+ 	color: black;
+ }
 
 
 
